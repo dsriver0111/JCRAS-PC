@@ -5,7 +5,7 @@ require_once('db.php');
 if(!isset($_POST['canvas_img'])){
 	header('location:login.php');
 }
-
+//変更
 $cancer_init = explode(',',$_POST['cancer_init']);
 $cancer_old_init = explode(',',$_POST['cancer_old_init']);
 $cancer_sintou = explode(',',$_POST['cancer_sintou']);
